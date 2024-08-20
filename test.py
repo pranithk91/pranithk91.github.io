@@ -40,7 +40,7 @@ def login():
     fetchdata = cur.fetchall()
     cur.close()"""
 
-    return render_template('login.html')
+    return render_template('templates/login.html')
 
 @app.route('/addnewmedicine')
 def form():
