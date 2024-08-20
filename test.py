@@ -23,6 +23,15 @@ except Error as e:
  
 mysql = MySQL(app)
 
+@app.route('/')
+def home():
+    """cur = conn.cursor()
+    cur.execute("Select * from MedicineList Limit 5")
+    fetchdata = cur.fetchall()
+    cur.close()"""
+
+    return render_template('index.html')
+
 
 @app.route('/login')
 def login():
