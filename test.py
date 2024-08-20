@@ -30,7 +30,7 @@ def home():
     fetchdata = cur.fetchall()
     cur.close()"""
 
-    return render_template('index.html')
+    return render_template('C:\\Users\\KP\\Development\\pranithk91.github.io\\templates\\index.html')
 
 
 @app.route('/login')
@@ -40,7 +40,7 @@ def login():
     fetchdata = cur.fetchall()
     cur.close()"""
 
-    return render_template('templates/login.html')
+    return render_template('login.html')
 
 @app.route('/addnewmedicine')
 def form():
