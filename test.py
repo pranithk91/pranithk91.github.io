@@ -30,7 +30,7 @@ def home():
     fetchdata = cur.fetchall()
     cur.close()"""
 
-    return render_template('C:\\Users\\KP\\Development\\pranithk91.github.io\\templates\\index.html')
+    return render_template('index.html')
 
 
 @app.route('/login')
